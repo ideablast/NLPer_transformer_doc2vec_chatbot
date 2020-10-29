@@ -1,6 +1,6 @@
 # NLPer_chatbot
 
-epoch : 20
+epoch : 50
 
 validation set: 0.1
 
