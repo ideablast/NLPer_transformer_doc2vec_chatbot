@@ -18,4 +18,5 @@ RE_FILTER = re.compile("[\"':;~()]")
  - 50 epoch의 결과 : overfitting의 기질이 보임. train data는 잘 맞추지만, 못본 문장은 조금 약한거 같기도?
  
  ### Transformer + Pretrained Embedding model(w2v, 50M, 200D)
-  - 50 에폭 결과 기존 Transformer(Okt)와 미미한 
+  - 50 에폭 결과 기존 Transformer(Okt)와 미미한 성능 차이를 보임.
+  - 다른 형태소분리기(Kkma, Hanaum, Komoran)을 사용하니, 오히려 성능이 떨어짐.
