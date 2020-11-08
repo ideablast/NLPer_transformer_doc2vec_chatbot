@@ -15,13 +15,12 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 # Model Structure
 
-### Doc2Vec 과 Transformer
-
-<img src="https://adriancolyer.files.wordpress.com/2016/05/paragraph-vectors-fig-2.png?w=600" alt="Doc2Vec" style="zoom: 80%;" /><img src="https://github.com/eagle705/pytorch-transformer-chatbot/blob/master/assets/transformer_fig.png?raw=true" alt="transformer_fig.png" style="zoom: 25%;" />
+## 4가지 모델(Doc2Vec, Transformer, 분류 모델(카테고리, 의도)
+### Doc2Vec : 답변 예측 모델 - 학습 시킨 문장에 대한 자연스러운 답변을 기대하며 설계
+### Transformer : 답변 예측 모델 - 학습 시키지 않은 자연여 입력에 대해서도 유연한 대처를 위해 설계
+### 분류 모델 : 두 예측 모델 내놓은 답변을 선택하기 위한 지표를 
 
 ## Chatbot flow
-
-
 
 ![image-20201106232513361](image-20201106232513361.png)
 
