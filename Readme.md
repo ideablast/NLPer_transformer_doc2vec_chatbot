@@ -21,9 +21,10 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 ## 4가지 모델 : Doc2Vec, Transformer, LSTM 분류 모델 2개(카테고리, 의도)
 ### Doc2Vec : 답변 예측 모델 - 학습 시킨 문장에 대한 자연스러운 답변을 기대하며 설계
 ### Transformer : 답변 예측 모델 - 학습 시키지 않은 자연여 입력에 대해서도 유연한 대처를 위해 설계
-### 분류 모델 : 두 예측 모델이 내놓은 답변의 카테고리와 의도를 예측하여 실제 질문의 의도와 유사한지 판단하여, 더욱 유사한 모델의 답변을 선택
+### 분류 모델 2개 : 두 예측 모델이 내놓은 답변의 카테고리와 의도를 예측하여 실제 질문의 의도와 유사한지 판단하여, 더욱 유사한 모델의 답변을 선택
 
-### seq2seq 모델 : 위의 모델이 하나도 포함되지 않은 seq2seq만으로 점원의 답변을 생성 : Seq2Seq_Chatbot_의류.ipynb
+
+#### *seq2seq 모델 : 위의 모델이 하나도 포함되지 않은 seq2seq만으로 점원의 답변을 생성 : Seq2Seq_Chatbot_의류.ipynb
 
 ## Chatbot flow
 
@@ -55,3 +56,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 # References
 
+https://github.com/deepseasw/seq2seq_chatbot : seq2seq 챗봇 참조  
+https://cholol.tistory.com/466?category=80348 : Doc2Vec
+https://nlpinkorean.github.io/illustrated-transformer/ : 트랜스포머 참조
+https://wikidocs.net/book/2155 : 자연어처리에 대한 전반적인 지식을 학습한 곳.
