@@ -60,3 +60,6 @@ https://github.com/deepseasw/seq2seq_chatbot : seq2seq 챗봇 참조
 https://cholol.tistory.com/466?category=80348 : Doc2Vec   
 https://nlpinkorean.github.io/illustrated-transformer : 트랜스포머 참조  
 https://wikidocs.net/book/2155 : 자연어처리에 대한 전반적인 지식을 학습한 곳.  
+
+# 만든사람들
+송두기, [강동구](https://github.com/HERIUN), 박지현, 송효준, 김대호
