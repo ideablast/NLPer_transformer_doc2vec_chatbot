@@ -58,5 +58,5 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 https://github.com/deepseasw/seq2seq_chatbot : seq2seq 챗봇 참조  
 https://cholol.tistory.com/466?category=80348 : Doc2Vec
-https://nlpinkorean.github.io/illustrated-transformer/ : 트랜스포머 참조
+https://nlpinkorean.github.io/illustrated-transformer : 트랜스포머 참조
 https://wikidocs.net/book/2155 : 자연어처리에 대한 전반적인 지식을 학습한 곳.
