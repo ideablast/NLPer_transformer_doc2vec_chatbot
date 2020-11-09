@@ -34,7 +34,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 ## Chatbot flow
 
-![image-20201106232513361](./img_src/image-20201106232513361.png)
+![chatbot_flow](./img_src/chatbot_Flow.png)
 
 <br/>
 
@@ -46,7 +46,8 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 
 형태소 분석기에 따른 트랜스포머의 성능 평가
-
+![result](./img_src/result.png)
+![score](./img_src/score.png)
 
 
 4가지 카테고리와 405가지 의도 분류기 정확도 평가
