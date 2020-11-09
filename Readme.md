@@ -1,8 +1,13 @@
-# Subject
+# 의류점 챗봇
 
-의류점에서의 고객과 점원사이 가능한 대화 문장으로 학습시킨 챗봇으로, 고객의 질문 '의도'에 벗어나거나(동문서답), '문법'에 안맞는 답변(ex.'는 네 입니다.')은 안하도록 목표로 함.
+- **의류점에서의 고객과 점원사이 가능한 대화 문장으로 학습시킨 챗봇.**
+- 고객의 질문 '의도'에 벗어나거나(동문서답), '문법'에 안맞는 답변(ex.'는 네 입니다.')은 안하는 것을 목표로 개발.
+- 광주 인공지능 사관학교 1 기 기업 연계 프로젝트 ([솔트룩스](http://saltlux.com/index.do))
+- 만든 이 : 송두기(팀장), [강동구](https://github.com/HERIUN), [박지현](https://github.com/JooEHyeon), 송효준, 김대호
 
-# Data Set
+<br/>
+
+## Data Set
 
 https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
@@ -15,24 +20,26 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 - 대화 데이터의 각 문장은 사용자(손님) 질문(Main Question), 메인 질문에 추가적으로 필요한 시스템(점원)의 서브 질문(Sub Question), 서브 질문에 대한 사용자(손님) 응답(User Answer), 시스템(점원) 최종 응답(System Answer)로 구분
 - 자세한 내용은 data_anal.ipynb 참고.
 
+<br/>
 
-# Model Structure
+## Model Structure (Doc2Vec, Transformer, LSTM 분류 모델 2개(카테고리, 의도))
 
-## 4가지 모델 : Doc2Vec, Transformer, LSTM 분류 모델 2개(카테고리, 의도)
-### Doc2Vec : 답변 예측 모델 - 학습 시킨 문장에 대한 자연스러운 답변을 기대하며 설계
-### Transformer : 답변 예측 모델 - 학습 시키지 않은 자연여 입력에 대해서도 유연한 대처를 위해 설계
-### 분류 모델 2개 : 두 예측 모델이 내놓은 답변의 카테고리와 의도를 예측하여 실제 질문의 의도와 유사한지 판단하여, 더욱 유사한 모델의 답변을 선택
+#### Doc2Vec : 답변 예측 모델 - 학습 시킨 문장에 대한 자연스러운 답변을 기대하며 설계
+#### Transformer : 답변 예측 모델 - 학습 시키지 않은 자연여 입력에 대해서도 유연한 대처를 위해 설계
+#### 분류 모델 2개 : 두 예측 모델이 내놓은 답변의 카테고리와 의도를 예측하여 실제 질문의 의도와 유사한지 판단하여, 더욱 유사한 모델의 답변을 선택
 
+*seq2seq 모델 : 위의 모델이 하나도 포함되지 않은 seq2seq만으로 점원의 답변을 생성 : Seq2Seq_Chatbot_의류.ipynb*
 
-#### *seq2seq 모델 : 위의 모델이 하나도 포함되지 않은 seq2seq만으로 점원의 답변을 생성 : Seq2Seq_Chatbot_의류.ipynb
+<br/>
 
 ## Chatbot flow
 
 ![image-20201106232513361](image-20201106232513361.png)
 
+<br/>
 
 
-# Evaluation
+## Evaluation
 
 챗봇에 대한 정량적인 성능 평가 기준이 없어 정성적인 평가를 수행
 
@@ -46,7 +53,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 
 
-# Conclusion
+## Conclusion
 
 
 
@@ -54,12 +61,10 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 
 
-# References
+## References
 
 https://github.com/deepseasw/seq2seq_chatbot : seq2seq 챗봇 참조  
 https://cholol.tistory.com/466?category=80348 : Doc2Vec   
 https://nlpinkorean.github.io/illustrated-transformer : 트랜스포머 참조  
 https://wikidocs.net/book/2155 : 자연어처리에 대한 전반적인 지식을 학습한 곳.  
 
-# 만든사람들
-송두기, [강동구](https://github.com/HERIUN), 박지현, 송효준, 김대호
