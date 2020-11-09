@@ -1,7 +1,7 @@
 # 의류점 챗봇
 
 - **의류점에서의 고객과 점원사이 가능한 대화 문장으로 학습시킨 챗봇.**
-- 고객의 질문 '의도'에 벗어나거나(동문서답), '문법'에 안맞는 답변(ex.'는 네 입니다.')은 안하는 것을 목표로 개발.
+- 고객의 질문 '의도'에 벗어나거나(동문서답), '문법'에 안맞는 답변(ex.'는 네 입니다.') 은 안하는 것을 목표로 개발.
 - 광주 인공지능 사관학교 1 기 기업 연계 프로젝트 ([솔트룩스](http://saltlux.com/index.do))
 - 만든 이 : 송두기(팀장), [강동구](https://github.com/HERIUN), [박지현](https://github.com/JooEHyeon), 송효준, 김대호
 
@@ -22,7 +22,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 <br/>
 
-## Model Structure (Doc2Vec, Transformer, LSTM 분류 모델 2개(카테고리, 의도))
+## Model Structure
 
 #### Doc2Vec : 답변 예측 모델 - 학습 시킨 문장에 대한 자연스러운 답변을 기대하며 설계
 #### Transformer : 답변 예측 모델 - 학습 시키지 않은 자연여 입력에 대해서도 유연한 대처를 위해 설계
@@ -51,7 +51,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 4가지 카테고리와 405가지 의도 분류기 정확도 평가
 
-
+<br/>
 
 ## Conclusion
 
@@ -59,7 +59,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 
 
-
+<br/>
 
 ## References
 
