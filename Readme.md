@@ -34,7 +34,7 @@ https://www.aihub.or.kr/aidata/85 - 의류점 데이터 셋
 
 ## Chatbot flow
 
-![chatbot_flow](./img_src/chatbot_Flow.png)
+![chatbot_flow](./img_src/Chatbot_Flow.png)
 
 <br/>
 
