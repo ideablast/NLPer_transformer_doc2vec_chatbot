@@ -62,7 +62,10 @@ AI 챗봇을 개발하며 한국어가 갖는 특성(교착어, 토큰이 형태
 
 
 
-
+## How to execute
+download models & dictionaries, list : https://drive.google.com/file/d/1AQSWgfNLzba8r6XLTfz5Oi_6vGLu0DYu/view?usp=sharing
+unzip and load all file to google drive(optional)
+Run final.ipynb
 
 <br/>
 
