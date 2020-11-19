@@ -70,6 +70,7 @@ unzip and load all file to google drive(optional)
 Run final.ipynb
 
 <br/>
+실험 내용의 경우 각 팀원의 브랜치에 정리 되어 있으며, 카카오톡 연동 코드는 hj 브랜치의 ebdjango, testapp 두 폴더 참조
 
 ## References
 
